@@ -1,11 +1,14 @@
 from flask import Flask, request
 from sidecar import Sidecar
+from flask_cors import CORS
 import threading
 import time
 import math
 
 sidecar = Sidecar("coordinator")
 app = Flask(__name__)
+CORS(app)
+
 
 nodes = {
     "proposers": [],

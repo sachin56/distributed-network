@@ -1,11 +1,17 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 from sidecar import Sidecar
+from flask_cors import CORS
 import threading
 import time
 
 sidecar = Sidecar("learner")
 app = Flask(__name__)
+CORS(app)
 results = {}
+
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 @app.route("/learn", methods=["POST"])
 def learn():

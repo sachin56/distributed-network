@@ -583,3 +583,868 @@ INFO:root:Response: 200
 INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
 INFO:root:Response: 200
 INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 21:17:14] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:15:22] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:15:26] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:15:30] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:15:47] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:20:24] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:20:24] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:20:48] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:22:09] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:22:25] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:26:29] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:27:20] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:27:21] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:27:26] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:27:34] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:28:19] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:31:01] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:31:05] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:31:26] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:31:39] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:31:55] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:33:51] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:34:06] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:34:09] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:34:33] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:36:28] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:36:49] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:37:48] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:38:25] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:47] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:47] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:47] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:51] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:51] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:54] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:54] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:57] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:57] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:41:01] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:41:01] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:41:25] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:41:34] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:41:43] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:41:53] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:42:06] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:25] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:25] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:25] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:25] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:28] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:28] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:30] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:30] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:34] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:34] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:36] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:36] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:44] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:14] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:36] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:36] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:37] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:37] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:40] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:40] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:44] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:44] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:47] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:48] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:50] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:50] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:58] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:45:10] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:46:02] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:46:35] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:46:42] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:47:26] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:48:03] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:48:38] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:49:38] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:54:41] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:58:44] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:59:01] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:59:33] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:59:49] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:59:49] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:59:59] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:00:25] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:02:51] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:02:52] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:03:01] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:06:13] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:06:13] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:06:24] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:06:33] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:06:53] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:06:54] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:07:02] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:07:09] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:07:26] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:07:26] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:07:41] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:07:49] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:08:59] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:08:59] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:09:11] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:09:18] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:09:57] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:10:23] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:10:47] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:10:47] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:10:55] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:11:07] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:11:07] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:11:14] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:11:48] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:16:36] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:16:36] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:16:44] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:17:56] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:18:22] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:20:51] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:20:51] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:21:02] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:22:13] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:22:13] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:22:33] "POST /upload HTTP/1.1" 200 -

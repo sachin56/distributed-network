@@ -1,5 +1,6 @@
 from flask import Flask, request
 from sidecar import Sidecar
+from flask_cors import CORS
 import threading
 import time
 import re
@@ -7,13 +8,13 @@ import requests
 
 sidecar = Sidecar("proposer")
 app = Flask(__name__)
+CORS(app)
 letter_range = ""
 nodes = {"acceptors": [], "learner": None}
 word_counts = {}
 
 
 def process_line(line, letter_range):
-    """Process a single line of text and update word_counts."""
     global word_counts
     if not letter_range:
         return {"error": "Range not set"}

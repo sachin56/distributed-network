@@ -889,3 +889,392 @@ INFO:root:Response: 200
 INFO:root:Sending to http://127.0.0.1:5006/line: {'text': "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."}
 INFO:root:Response: 200
 INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:29] "POST /start HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:20:24] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1077660e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107766a40>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 3 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x107767340>: Failed to establish a new connection: [Errno 61] Connection refused'))
+ERROR:root:All 3 attempts failed for http://127.0.0.1:5002/set_range
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+ERROR:root:Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /nodes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1077671c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:47] "POST /register HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:47] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:51] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:54] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:40:57] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:41:01] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10710e0e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10710ea40>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:25] "POST /register HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:25] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:28] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:31] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:34] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:43:36] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 1 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105b160e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+ERROR:root:Attempt 2 failed: HTTPConnectionPool(host='127.0.0.1', port=5002): Max retries exceeded with url: /set_range (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105b16a40>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:36] "POST /register HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:37] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:40] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:44] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:48] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:44:50] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 01:59:49] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:02:52] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:06:13] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:06:54] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:07:26] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:08:59] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:10:47] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:11:07] "POST /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:16:36] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:16:50] "OPTIONS /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:17:01] "OPTIONS /register HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-M'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/set_range: {'range': 'N-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5006/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5004/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-M'}, {'url': 'http://127.0.0.1:5006', 'range': 'N-Z'}], 'acceptors': [{'url': 'http://127.0.0.1:5003'}, {'url': 'http://127.0.0.1:5005'}], 'learner': {'url': 'http://127.0.0.1:5004'}}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:20:51] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:21:25] "OPTIONS /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:22:04] "OPTIONS /register HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5020
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5002'}
+INFO:root:Sending to http://127.0.0.1:5002/set_range: {'range': 'A-Z'}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5002/nodes: {'proposers': [{'url': 'http://127.0.0.1:5002', 'range': 'A-Z'}], 'acceptors': [], 'learner': None}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:22:13] "POST /register HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:22:17] "OPTIONS /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:22:17] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:22:31] "OPTIONS /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:22:31] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:22:43] "OPTIONS /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 02:22:43] "[31m[1mPOST /register HTTP/1.1[0m" 400 -

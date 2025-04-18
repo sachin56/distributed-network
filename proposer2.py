@@ -1,5 +1,6 @@
 from flask import Flask, request
 from sidecar import Sidecar
+from flask_cors import CORS
 import threading
 import time
 import re
@@ -7,13 +8,13 @@ import requests
 
 sidecar = Sidecar("proposer2")
 app = Flask(__name__)
+CORS(app)
 letter_range = ""
 nodes = {"acceptors": [], "learner": None}
 word_counts = {}
 
 
 def process_line(line, letter_range):
-    """Process a single line of text and update word_counts."""
     global word_counts
     if not letter_range:
         return {"error": "Range not set"}
@@ -60,11 +61,9 @@ def upload_file():
     if file.filename == '':
         return {"error": "No file selected"}, 400
     try:
-        # Clear proposer state
         word_counts.clear()
         print("Cleared word_counts for new file")
 
-        # Reset learner state
         if nodes["learner"]:
             try:
                 sidecar.send(f"{nodes['learner']['url']}/reset", {}, retries=3, delay=1)
@@ -74,7 +73,6 @@ def upload_file():
         else:
             print("Warning: No learner registered, skipping reset")
 
-        # Process file
         text = file.read().decode('utf-8', errors='ignore')
         lines = text.splitlines()
         for line in lines:
