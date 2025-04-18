@@ -1,0 +1,280 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'text': 'example'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 21:54:07] "POST /learn HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'text': 'example'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:01:16] "POST /learn HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:12:07] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5010/register: {'type': 'learner', 'url': 'http://127.0.0.1:5004'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:24:08] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:24:47] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:25:58] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:26:19] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'learner', 'url': 'http://127.0.0.1:5004'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:35:32] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:36:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:36:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:36:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:36:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:36:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:36:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:36:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:36:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:36:14] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'learner', 'url': 'http://127.0.0.1:5004'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:18] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:28] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:28] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:28] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:28] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:28] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:28] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:28] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:28] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:28] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:28] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:28] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:29] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:29] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:29] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:29] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:29] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:35] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'learner', 'url': 'http://127.0.0.1:5004'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:03] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:16] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:58:48] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:32:27] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:32:27] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:32:27] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:32:27] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:32:32] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'learner', 'url': 'http://127.0.0.1:5004'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:53] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:59] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:59] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:59] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:59] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:35:02] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 00:26:45] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 00:26:45] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 00:26:45] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 00:26:45] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 00:26:49] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:19:30] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:19:30] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:19:30] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:19:30] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:19:35] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'learner', 'url': 'http://127.0.0.1:5004'}
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:47:35] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:57:44] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'learner', 'url': 'http://127.0.0.1:5004'}
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:00:57] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:11] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:11] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:11] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:11] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:11] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:11] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:42] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:42] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:42] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:42] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:42] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:42] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:53] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:03:01] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:03:42] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:03:42] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:03:42] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:03:42] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:03:42] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:03:42] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:03:46] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:05:16] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:05:16] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:05:17] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:05:17] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:05:17] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:05:17] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:05:37] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:11:46] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:11:47] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:11:47] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:11:47] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:11:47] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:11:47] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:11:50] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:13:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:13:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:13:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:13:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:13:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:13:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:13:28] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:14:15] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:14:15] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:14:15] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:14:15] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:14:22] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:15:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:15:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:15:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:15:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:15:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:15:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:15:04] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'learner', 'url': 'http://127.0.0.1:5004'}
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:11] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:20] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:20] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:20] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:20] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:20] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:20] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:29] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'learner', 'url': 'http://127.0.0.1:5004'}
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:22:24] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:23:43] "POST /reset HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:23:43] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:23:43] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:23:43] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:23:43] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:23:59] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:24:47] "POST /reset HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:24:47] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:24:47] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:24:47] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:24:47] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:25:06] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:25:25] "POST /reset HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:25:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:25:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:25:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:25:25] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:25:28] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:25:40] "POST /reset HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:25:40] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:25:40] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:25:40] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:25:40] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:25:44] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:00] "POST /reset HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:00] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:00] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:00] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:00] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:03] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:21] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:21] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:21] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:21] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:29] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:29] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:29] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:29] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:31] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:51] "POST /reset HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:51] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:51] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:51] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:51] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:53] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 21:17:01] "POST /reset HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 21:17:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 21:17:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 21:17:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 21:17:01] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 21:17:14] "POST /reset HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 21:17:14] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 21:17:14] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 21:17:14] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 21:17:14] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 21:17:22] "GET /results HTTP/1.1" 200 -

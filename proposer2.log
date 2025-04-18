@@ -1,0 +1,230 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5006'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:47:55] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:47:55] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:03] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:03] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:10] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:10] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:18] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:18] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:28] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:28] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:29] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:48:29] "POST /line HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5006'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:56:39] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:56:39] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:56:47] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:56:47] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:56:54] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:56:54] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:03] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:03] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['sports']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 22:57:12] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 46, 'words': ['sports', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 46, 'words': ['sports', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:32:27] "POST /line HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5006'}
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:29] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:29] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:37] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:37] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:45] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:45] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:53] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:53] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 45, 'words': ['that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 45, 'words': ['that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2025 23:34:59] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 90, 'words': ['that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 90, 'words': ['that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 00:26:45] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 135, 'words': ['that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 135, 'words': ['that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:19:30] "POST /line HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5006'}
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:46:48] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:46:48] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:47:04] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:47:04] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:47:20] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:47:20] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:47:35] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:47:35] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:57:44] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 10:57:44] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5006'}
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:00:13] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:00:13] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:00:30] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:00:30] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:00:43] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:00:43] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:00:57] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:00:57] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['world']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['world']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['world']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['world']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 3, 'words': ['world', 'zebra', 'yak']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 3, 'words': ['world', 'zebra', 'yak']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:01:42] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:13:17] "POST /set_range HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-B', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-B', 'count': 0, 'words': []}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-B', 'count': 2, 'words': ['apple', 'banana']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-B', 'count': 2, 'words': ['apple', 'banana']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-B', 'count': 2, 'words': ['apple', 'banana']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-B', 'count': 2, 'words': ['apple', 'banana']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:13:25] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'A-B', 'count': 17, 'words': ['apple', 'banana', 'a', 'a', 'be', 'by', 'a', 'at', 'a', 'as', 'and', 'as', 'and', 'a', 'by', 'accident', 'and']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'A-B', 'count': 17, 'words': ['apple', 'banana', 'a', 'a', 'be', 'by', 'a', 'at', 'a', 'as', 'and', 'as', 'and', 'a', 'by', 'accident', 'and']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:14:15] "POST /line HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5006'}
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:16:59] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:16:59] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:04] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:04] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:07] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:07] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:11] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:11] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['world']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['world']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['world']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 1, 'words': ['world']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 3, 'words': ['world', 'zebra', 'yak']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 3, 'words': ['world', 'zebra', 'yak']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:17:25] "POST /upload HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5006
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Sending to http://127.0.0.1:5020/register: {'type': 'proposer', 'url': 'http://127.0.0.1:5006'}
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:22:09] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:22:09] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:22:15] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:22:15] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:22:18] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:22:18] "POST /nodes HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:22:24] "POST /set_range HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:22:24] "POST /nodes HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 2, 'words': ['zebra', 'yak']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 2, 'words': ['zebra', 'yak']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 4, 'words': ['zebra', 'yak', 'orange', 'pear']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 4, 'words': ['zebra', 'yak', 'orange', 'pear']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:24:47] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/reset: {}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 2, 'words': ['zebra', 'yak']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 2, 'words': ['zebra', 'yak']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 4, 'words': ['zebra', 'yak', 'orange', 'pear']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 4, 'words': ['zebra', 'yak', 'orange', 'pear']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:00] "POST /upload HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 49, 'words': ['zebra', 'yak', 'orange', 'pear', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 49, 'words': ['zebra', 'yak', 'orange', 'pear', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:21] "POST /line HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5003/accept: {'letter_range': 'N-Z', 'count': 94, 'words': ['zebra', 'yak', 'orange', 'pear', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the']}
+INFO:root:Response: 200
+INFO:root:Sending to http://127.0.0.1:5005/accept: {'letter_range': 'N-Z', 'count': 94, 'words': ['zebra', 'yak', 'orange', 'pear', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the', 'that', 'reader', 'will', 'the', 'readable', 'of', 'page', 'when', 'the', 'point', 'of', 'using', 'that', 'or', 'normal', 'of', 'opposed', 'to', 'using', 'readable', 'publishing', 'packages', 'web', 'page', 'now', 'use', 'their', 'text', 'search', 'will', 'uncover', 'web', 'sites', 'still', 'their', 'various', 'versions', 'over', 'the', 'years', 'sometimes', 'sometimes', 'on', 'purpose', 'the']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [17/Apr/2025 11:26:29] "POST /line HTTP/1.1" 200 -
