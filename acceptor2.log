@@ -32,3 +32,9 @@ INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 12:47:41] "POST /accept HTTP/1.1" 200 -
 INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
 INFO:root:Response: 200
 INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 12:47:41] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 1, 'words': ['hello']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 14:39:54] "POST /accept HTTP/1.1" 200 -
+INFO:root:Sending to http://127.0.0.1:5004/learn: {'letter_range': 'A-M', 'count': 4, 'words': ['hello', 'apple', 'banana', 'cherry']}
+INFO:root:Response: 200
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 14:39:54] "POST /accept HTTP/1.1" 200 -

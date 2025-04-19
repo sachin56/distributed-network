@@ -32,3 +32,10 @@ INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 12:47:41] "POST /learn HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 12:47:41] "POST /learn HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 12:47:41] "POST /learn HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 12:47:42] "GET /results HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 14:39:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 14:39:54] "POST /reset HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 14:39:54] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 14:39:54] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 14:39:54] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 14:39:54] "POST /learn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2025 14:39:55] "GET /results HTTP/1.1" 200 -
